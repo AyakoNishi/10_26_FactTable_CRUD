@@ -1,0 +1,127 @@
+body{
+  background-image: url(..image/coffee-3513683_1280.png);
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0 0 0 0;
+}
+h2{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0 0 0 0;
+}
+
+.head-title{
+  background-image: url(../image/coffee-shop-1209863_1280.jpg);
+  background-size: cover;
+  height: 120px;
+}
+/* style="position:absolute;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,.3)" */
+.button_area{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 0 0;
+}
+
+.tab_menu{
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  border-bottom: 5px solid #9fd8ee;
+  padding: 0;
+}
+.tab_menu li{
+  float: left;
+  margin: 0 8px 0 0;
+  background: #d9dfe1;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 10px 0 10px;
+}
+.tab_menu li:hover{
+  background: #cde0e5;
+}
+.tab_menu li a{
+  display: block;
+}
+
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,table td{
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #b7b7b7;
+}
+
+.fact_t{
+  padding: 5px 10px 5px 10px;
+}
+.sum_t{
+  padding: 5px 10px 5px 10px;
+}
+
+.fact_t table tr:nth-child(odd){
+  background-color: #c5e2c2
+}
+.kind_t table tr:nth-child(odd){
+  background-color: #eaf6fd
+}
+.coffee_t table tr:nth-child(odd){
+  background-color: #bad4ee
+}
+.brend_t table tr:nth-child(odd){
+  background-color: #9fd8ee
+}
+.hot_t table tr:nth-child(odd){
+  background-color: #f7c8d6
+}
+.sum_t table tr:nth-child(odd){
+  background-color: #e2eba3
+}
+
+.table_id_s{
+  width: 30px;
+}
+.table_nm_s{
+  width: 100px;
+}
+.table_id{
+  width: 60px;
+}
+.table_nm{
+  width: 200px;
+}
+.table_nm_l{
+  width: 250px;
+}
+/* .fact_t{
+  width: 80%;
+} */
+
+input[type="text"]{
+  width: 200px;
+}
+.textfield_label{
+  display: inline-block;
+  width: 5em;
+}
+
+.master {
+  display:flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.kind_t .coffee_t .brend_t .hot_t{
+  margin: 10px;
+}
+
